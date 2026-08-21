@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "enableWorkflows": true,
+  "extraKnownMarketplaces": {
+    "fallow-skills": {
+      "source": {
+        "source": "github",
+        "repo": "fallow-rs/fallow-skills"
+      }
+    }
+  },
+  "autoUpdatesChannel": "latest",
+  "theme": "auto",
+  "agentPushNotifEnabled": true,
+  "tui": "fullscreen"
+}

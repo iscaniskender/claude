@@ -82,8 +82,11 @@ cd ~/.claude/skills && git pull
 | Skill | Ne zaman kullanılır |
 |---|---|
 | [`FlowForge`](FlowForge) | Süreç, mimari veya kavramları çizmek/görselleştirmek istendiğinde (akış şeması, mimari diyagramı, karşılaştırma diyagramı vb.) kullanılır. Grafik/plot istekleri veya sanatsal görsel istekleri için değildir. |
+| [`graphify`](graphify) | Herhangi bir girdiyi (kod, döküman, makale, görsel, video) kalıcı bir bilgi grafiğine dönüştürür; kod tabanı, mimari veya dosya ilişkileri hakkında soru sorulduğunda, özellikle `graphify-out/` mevcutsa kullanılır. Tetikleyici: `/graphify`. |
 | [`writing-skills`](writing-skills) | Yeni skill oluştururken, mevcut skill'leri düzenlerken veya dağıtımdan önce skill'lerin çalıştığını doğrularken kullanılır. |
 
 ---
 
 *Bu repo `AllSkills.zip` (2026-08-06 tarihli) içeriğinden 2026-08-21'de oluşturulmuştur. Skill setinde değişiklik olursa hem ilgili skill klasörünü hem bu README'yi güncelleyin.*
+
+*2026-08-21: `graphify` skill'i `~/.claude/skills`'ten eklendi.*
